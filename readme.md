@@ -6,7 +6,7 @@
 Open terminal create specific folder and Run Commands:
 
     ```
-    git clone https://github.com/Ayush-Bulbule/PASC-BackendSIGTask
+    git clone https://github.com/PICT-ACM-Student-Chapter/PASC-BackendSIGTask
     ```
 
 2. Install Dependencies:
