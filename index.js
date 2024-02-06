@@ -5,7 +5,6 @@ const app = express();
 //to parse the request body
 app.use(express.json());
 
-//
 
 //Books Api Routes: GET, POST, PUT, DELETE
 let books = [
@@ -35,6 +34,9 @@ app.get("/ping", (req, res) => {
 
 
 // Add other requests GET, POST, PUT, DELETE
+
+
+
 app.listen(8000, () => {
     console.log(`App is live on: http://localhost:8000`);
 });
