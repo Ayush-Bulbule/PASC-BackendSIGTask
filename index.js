@@ -1,6 +1,4 @@
-import express from "express"
-
-
+const express = require("express");
 
 const app = express();
 
@@ -28,6 +26,9 @@ let books = [
 ];
 
 
+app.get("/", (req, res) => {
+    res.status(200).json({ message: "Hello change this to list of books!" });
+})
 app.get("/ping", (req, res) => {
     res.status(200).json({ message: "Pong" });
 })
